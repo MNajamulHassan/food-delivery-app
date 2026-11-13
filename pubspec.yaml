@@ -1,0 +1,24 @@
+name: food_delivery_app
+description: "Foodie Express - a food delivery app built in Flutter for the MAD course (Riphah)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # External package (Week 2): Google Fonts for the app-wide Poppins font
+  google_fonts: ^6.2.1
+  # Local storage for the signed-up account and login state
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
